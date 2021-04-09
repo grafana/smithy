@@ -478,7 +478,7 @@ public final class ModelAssembler {
     /**
      * Assembles the model and returns the validated result.
      *
-     * <h4>Implementation notes</h4>
+     * <h2>Implementation notes</h2>
      *
      * <p>Assembling models is a multi-step process that revolves around
      * {@link ModelFile}s. ModelFiles are essentially files that contain
