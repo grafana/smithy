@@ -73,6 +73,16 @@ Smithy Models][building] guide. For more examples, see the
 [examples directory](https://github.com/awslabs/smithy-gradle-plugin/tree/main/examples)
 of the Smithy Gradle Plugin repository.
 
+# Development
+
+To build the Smithy CLI tool, execute the following command:
+
+```
+./gradlew :smithy-cli:runtime
+```
+
+After the build finishes, the executable will be at smithy-cli/build/image/bin/smithy.
+
 # License
 
 This library is licensed under the Apache 2.0 License.
